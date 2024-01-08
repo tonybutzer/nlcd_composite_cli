@@ -537,15 +537,15 @@ start_time = dt.datetime.now()
 formatted_datetime = start_time.strftime('%Y%m%d_%H%M')
 
 #%=====================USER INPUT========================
-start = dt.datetime.strptime('19840508', '%Y%m%d').date()
+start = dt.datetime.strptime('19840501', '%Y%m%d').date()
 end = dt.datetime.strptime('19840930', '%Y%m%d').date()
 
 horiz = 4 # horizontal location
 vert =  2 # vertical location
 
-max_x = 1000
+max_x = 5000
 max_y = 5000
-interval = 100
+interval = 500
 
 start_x = 0
 start_y = 0
@@ -603,8 +603,9 @@ func = partial(comp_worker_pure_rio,
 
 #%%===================SET OUT FILE NAMES==============================
 # create out tif name with current date time
-out_comp_tif = f'comp_{horiz:03d}{vert:03d}_{start.year}_{max_x}xy{interval}i_{formatted_datetime}.tif'
-out_qa_tif = f'QA_{horiz:03d}{vert:03d}_{start.year}_{len(deets)}_{max_x}xy{interval}i_{formatted_datetime}.tif'
+OUTDIR = '/efs/composites'
+out_comp_tif = f'{OUTDIR}/comp_{horiz:03d}{vert:03d}_{start.year}_{max_x}x{max_y}y{interval}i_{formatted_datetime}.tif'
+out_qa_tif = f'{OUTDIR}/QA_{horiz:03d}{vert:03d}_{start.year}_{len(deets)}_{max_x}x{max_y}y{interval}i_{formatted_datetime}.tif'
 
 
 #%%==================Retrieve metadata from a single input obs=======================
@@ -762,8 +763,8 @@ def plot_ARD_composite(ARDs, bandcombotype: str):
 
 
 
-ARDs = find_observations(fs, dt.date(1984, 5, 1), dt.date(1984, 9, 30), 'tm', 'CU', '003', '003')
-plot_ARD_composite(ARDs, 'rgb')
+#ARDs = find_observations(fs, dt.date(1984, 5, 1), dt.date(1984, 9, 30), 'tm', 'CU', '003', '003')
+#plot_ARD_composite(ARDs, 'rgb')
 
 
 # # Not in Use
