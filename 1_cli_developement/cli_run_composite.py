@@ -428,17 +428,17 @@ def comp_worker_pure_rio(window: Window, ids: List[LandsatARDObservation], *args
                    
         # print(f'big_arr: {big_arr}')             
   
-    # masked_spectral_array = np.ma.masked_array(big_arr,
-    #                                            dtype=big_arr.dtype,
-    #                                            mask=np.repeat(np.expand_dims(std_mask(qas), axis=0),
-    #                                                           repeats=6,
-    #                                                           axis=0))
- 
     masked_spectral_array = np.ma.masked_array(big_arr,
-                                               dtype=big_arr.dtype,
-                                               mask=np.repeat(np.expand_dims(sort_percentiles(rgb_arr,10), axis=0),
-                                                              repeats=6,
-                                                              axis=0))
+                                                dtype=big_arr.dtype,
+                                                mask=np.repeat(np.expand_dims(std_mask(qas), axis=0),
+                                                               repeats=6,
+                                                               axis=0))
+ 
+    #masked_spectral_array = np.ma.masked_array(big_arr,
+                                               #dtype=big_arr.dtype,
+                                               #mask=np.repeat(np.expand_dims(sort_percentiles(rgb_arr,10), axis=0),
+                                                              #repeats=6,
+                                                              #axis=0))
     # print(f'masked_spectral_array: {masked_spectral_array}')
     dist_overall = distance_overall(masked_spectral_array)  
     # log.info(f' DISTANCE_OVERALL: {np.count_nonzero(dist_overall)} filled pixels of {dist_overall.size}')
