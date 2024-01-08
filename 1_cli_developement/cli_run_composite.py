@@ -537,11 +537,38 @@ start_time = dt.datetime.now()
 formatted_datetime = start_time.strftime('%Y%m%d_%H%M')
 
 #%=====================USER INPUT========================
-start = dt.datetime.strptime('19840501', '%Y%m%d').date()
-end = dt.datetime.strptime('19840930', '%Y%m%d').date()
 
-horiz = 4 # horizontal location
-vert =  2 # vertical location
+# start = dt.datetime.strptime('19840501', '%Y%m%d').date()
+# end = dt.datetime.strptime('19840930', '%Y%m%d').date()
+
+# horiz = 4 # horizontal location
+# vert =  2 # vertical location
+
+import argparse
+
+def get_parser():
+    parser = argparse.ArgumentParser(description='Run the composite code')
+    parser.add_argument('-s', '--start', help='specify start year and season example: -s 19840501 ', type=str, required=True)
+    parser.add_argument('-e', '--end', help='end year and season example: --end 19840930', type=str, required=True)
+    parser.add_argument('-z', '--horiz', help='ARD H horizontal grid example -h 23', type=str, required=True)
+    parser.add_argument('-v', '--vert', help='ARD V veritical -v 13' , type=str, required=True)
+    return parser
+
+
+parser = get_parser()
+args = vars(parser.parse_args())
+print(args)
+
+starta=args['start']
+enda=args['end']
+start = dt.datetime.strptime(starta, '%Y%m%d').date()
+end = dt.datetime.strptime(enda, '%Y%m%d').date()
+
+
+horiz = int(args['horiz'])
+vert = int(args['vert'])
+
+
 
 max_x = 5000
 max_y = 5000
