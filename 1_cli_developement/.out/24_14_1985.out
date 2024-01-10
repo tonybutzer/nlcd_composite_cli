@@ -1,0 +1,914 @@
+{'start': '19850501', 'end': '19850930', 'horiz': '24', 'vert': '14'}
+2024-01-10 15:18:22 Initializing filesystem 2024-01-10 15:18:22.143490
+2024-01-10 15:18:22 Identifying inputs
+sensor: tm = available
+2024-01-10 15:18:22 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Observations found: 4
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Metadata for window Window(col_off=0, row_off=0, width=5000, height=5000): {'dtype': 'uint16', 'transform': Affine(30.0, 0.0, 1034415.0,
+       0.0, -30.0, 1214805.0), 'crs': CRS.from_wkt('PROJCS["AEA        WGS84",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["latitude_of_center",23],PARAMETER["longitude_of_center",-96],PARAMETER["standard_parallel_1",29.5],PARAMETER["standard_parallel_2",45.5],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]'), 'width': 5000, 'height': 5000, 'count': 1}
+
+
+2024-01-10 15:18:24 BEGIN PROCESSING: /efs/composites/comp_024014_1985_5000x5000y500i_20240110_1518.tif
+2024-01-10 15:18:24 PROCESSING Window(col_off=0, row_off=0, width=500, height=500)
+2024-01-10 15:18:24 PROCESSING Window(col_off=0, row_off=4000, width=500, height=500)
+2024-01-10 15:18:24 PROCESSING Window(col_off=500, row_off=3000, width=500, height=500)
+2024-01-10 15:18:24 PROCESSING Window(col_off=500, row_off=1000, width=500, height=500)
+2024-01-10 15:18:24 PROCESSING Window(col_off=0, row_off=2000, width=500, height=500)
+2024-01-10 15:18:24 PROCESSING Window(col_off=1000, row_off=0, width=500, height=500)
+2024-01-10 15:18:24 PROCESSING Window(col_off=1000, row_off=2000, width=500, height=500)
+2024-01-10 15:18:24 PROCESSING Window(col_off=1000, row_off=4000, width=500, height=500)
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:24 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:26 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:28 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:30 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 PROCESSING Window(col_off=1000, row_off=4500, width=500, height=500)
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 PROCESSING Window(col_off=500, row_off=1500, width=500, height=500)
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 PROCESSING Window(col_off=1000, row_off=2500, width=500, height=500)
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 PROCESSING Window(col_off=1000, row_off=500, width=500, height=500)
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 PROCESSING Window(col_off=0, row_off=4500, width=500, height=500)
+2024-01-10 15:18:34 PROCESSING Window(col_off=0, row_off=500, width=500, height=500)
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 PROCESSING Window(col_off=0, row_off=2500, width=500, height=500)
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 PROCESSING Window(col_off=500, row_off=3500, width=500, height=500)
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:34 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:35 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:36 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:37 PROCESSING Window(col_off=1000, row_off=3000, width=500, height=500)
+2024-01-10 15:18:37 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:37 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:37 PROCESSING Window(col_off=0, row_off=3000, width=500, height=500)
+2024-01-10 15:18:37 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:37 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 PROCESSING Window(col_off=500, row_off=2000, width=500, height=500)
+2024-01-10 15:18:38 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 PROCESSING Window(col_off=0, row_off=1000, width=500, height=500)
+2024-01-10 15:18:38 PROCESSING Window(col_off=1000, row_off=1000, width=500, height=500)
+2024-01-10 15:18:38 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 PROCESSING Window(col_off=500, row_off=4000, width=500, height=500)
+2024-01-10 15:18:38 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 PROCESSING Window(col_off=500, row_off=0, width=500, height=500)
+2024-01-10 15:18:38 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 PROCESSING Window(col_off=1500, row_off=0, width=500, height=500)
+2024-01-10 15:18:38 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:38 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:39 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:40 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:40 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:40 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:40 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:40 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:41 PROCESSING Window(col_off=0, row_off=3500, width=500, height=500)
+2024-01-10 15:18:41 PROCESSING Window(col_off=1000, row_off=3500, width=500, height=500)
+2024-01-10 15:18:41 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:41 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:41 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:41 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:41 PROCESSING Window(col_off=500, row_off=2500, width=500, height=500)
+2024-01-10 15:18:41 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:41 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 PROCESSING Window(col_off=0, row_off=1500, width=500, height=500)
+2024-01-10 15:18:42 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 PROCESSING Window(col_off=500, row_off=500, width=500, height=500)
+2024-01-10 15:18:42 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 PROCESSING Window(col_off=500, row_off=4500, width=500, height=500)
+2024-01-10 15:18:42 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 PROCESSING Window(col_off=1500, row_off=500, width=500, height=500)
+2024-01-10 15:18:42 PROCESSING Window(col_off=1000, row_off=1500, width=500, height=500)
+2024-01-10 15:18:42 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:42 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:43 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:44 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:44 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:44 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:44 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:45 PROCESSING Window(col_off=1500, row_off=1000, width=500, height=500)
+2024-01-10 15:18:45 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:45 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:45 PROCESSING Window(col_off=1500, row_off=3000, width=500, height=500)
+2024-01-10 15:18:45 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:45 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:45 PROCESSING Window(col_off=2000, row_off=0, width=500, height=500)
+2024-01-10 15:18:45 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:45 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 PROCESSING Window(col_off=2000, row_off=2000, width=500, height=500)
+2024-01-10 15:18:46 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 PROCESSING Window(col_off=2000, row_off=4000, width=500, height=500)
+2024-01-10 15:18:46 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:46 PROCESSING Window(col_off=2500, row_off=1000, width=500, height=500)
+2024-01-10 15:18:46 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 PROCESSING Window(col_off=2500, row_off=3000, width=500, height=500)
+2024-01-10 15:18:47 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 PROCESSING Window(col_off=3000, row_off=0, width=500, height=500)
+2024-01-10 15:18:47 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:47 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 PROCESSING Window(col_off=1500, row_off=1500, width=500, height=500)
+2024-01-10 15:18:48 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:48 PROCESSING Window(col_off=1500, row_off=3500, width=500, height=500)
+2024-01-10 15:18:48 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:48 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 PROCESSING Window(col_off=2000, row_off=500, width=500, height=500)
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 PROCESSING Window(col_off=2000, row_off=2500, width=500, height=500)
+2024-01-10 15:18:49 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:49 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 PROCESSING Window(col_off=2000, row_off=4500, width=500, height=500)
+2024-01-10 15:18:50 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 PROCESSING Window(col_off=2500, row_off=1500, width=500, height=500)
+2024-01-10 15:18:50 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 PROCESSING Window(col_off=2500, row_off=3500, width=500, height=500)
+2024-01-10 15:18:50 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:50 PROCESSING Window(col_off=3000, row_off=500, width=500, height=500)
+2024-01-10 15:18:50 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:50 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:51 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 PROCESSING Window(col_off=1500, row_off=2000, width=500, height=500)
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 PROCESSING Window(col_off=1500, row_off=4000, width=500, height=500)
+2024-01-10 15:18:52 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 PROCESSING Window(col_off=2000, row_off=1000, width=500, height=500)
+2024-01-10 15:18:52 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:52 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:53 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:53 PROCESSING Window(col_off=2000, row_off=3000, width=500, height=500)
+2024-01-10 15:18:53 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:53 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:53 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:53 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:53 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:53 PROCESSING Window(col_off=2500, row_off=2000, width=500, height=500)
+2024-01-10 15:18:53 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:53 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 PROCESSING Window(col_off=2500, row_off=4000, width=500, height=500)
+2024-01-10 15:18:54 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 PROCESSING Window(col_off=3000, row_off=1000, width=500, height=500)
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 PROCESSING Window(col_off=2500, row_off=0, width=500, height=500)
+2024-01-10 15:18:54 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:54 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 PROCESSING Window(col_off=1500, row_off=4500, width=500, height=500)
+2024-01-10 15:18:55 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 PROCESSING Window(col_off=1500, row_off=2500, width=500, height=500)
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:55 PROCESSING Window(col_off=2000, row_off=1500, width=500, height=500)
+2024-01-10 15:18:55 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:55 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:56 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:56 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:56 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:56 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:56 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:56 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:56 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 PROCESSING Window(col_off=2000, row_off=3500, width=500, height=500)
+2024-01-10 15:18:57 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 PROCESSING Window(col_off=2500, row_off=2500, width=500, height=500)
+2024-01-10 15:18:57 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 PROCESSING Window(col_off=2500, row_off=4500, width=500, height=500)
+2024-01-10 15:18:57 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 PROCESSING Window(col_off=2500, row_off=500, width=500, height=500)
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:57 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:57 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:58 PROCESSING Window(col_off=3000, row_off=1500, width=500, height=500)
+2024-01-10 15:18:58 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:58 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:58 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:58 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:58 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:58 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:58 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:58 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 PROCESSING Window(col_off=3000, row_off=2000, width=500, height=500)
+2024-01-10 15:18:59 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:18:59 PROCESSING Window(col_off=3000, row_off=4000, width=500, height=500)
+2024-01-10 15:18:59 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:18:59 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:00 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:00 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:00 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:00 PROCESSING Window(col_off=3500, row_off=1000, width=500, height=500)
+2024-01-10 15:19:00 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:00 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:00 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:00 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:00 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:01 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:01 PROCESSING Window(col_off=3500, row_off=3000, width=500, height=500)
+2024-01-10 15:19:01 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:01 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:01 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:01 PROCESSING Window(col_off=4000, row_off=0, width=500, height=500)
+2024-01-10 15:19:01 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:01 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:01 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:01 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:01 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 PROCESSING Window(col_off=4000, row_off=2000, width=500, height=500)
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 PROCESSING Window(col_off=4000, row_off=4000, width=500, height=500)
+2024-01-10 15:19:02 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 PROCESSING Window(col_off=4500, row_off=1000, width=500, height=500)
+2024-01-10 15:19:02 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 PROCESSING Window(col_off=3000, row_off=2500, width=500, height=500)
+2024-01-10 15:19:02 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:02 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 PROCESSING Window(col_off=3000, row_off=4500, width=500, height=500)
+2024-01-10 15:19:03 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 PROCESSING Window(col_off=3500, row_off=1500, width=500, height=500)
+2024-01-10 15:19:03 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:03 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 PROCESSING Window(col_off=3500, row_off=3500, width=500, height=500)
+2024-01-10 15:19:04 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 PROCESSING Window(col_off=4000, row_off=500, width=500, height=500)
+2024-01-10 15:19:04 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:04 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:05 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:05 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:05 PROCESSING Window(col_off=4000, row_off=2500, width=500, height=500)
+2024-01-10 15:19:05 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:05 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:05 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:05 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:05 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:05 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 PROCESSING Window(col_off=4000, row_off=4500, width=500, height=500)
+2024-01-10 15:19:06 PROCESSING Window(col_off=4500, row_off=1500, width=500, height=500)
+2024-01-10 15:19:06 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 PROCESSING Window(col_off=3000, row_off=3000, width=500, height=500)
+2024-01-10 15:19:06 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 PROCESSING Window(col_off=3500, row_off=0, width=500, height=500)
+2024-01-10 15:19:06 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:06 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:07 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:07 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:07 PROCESSING Window(col_off=3500, row_off=2000, width=500, height=500)
+2024-01-10 15:19:07 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:07 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:07 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:07 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:07 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:07 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 PROCESSING Window(col_off=3500, row_off=4000, width=500, height=500)
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 PROCESSING Window(col_off=4000, row_off=1000, width=500, height=500)
+2024-01-10 15:19:08 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:08 PROCESSING Window(col_off=4000, row_off=3000, width=500, height=500)
+2024-01-10 15:19:08 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:08 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 PROCESSING Window(col_off=4500, row_off=2000, width=500, height=500)
+2024-01-10 15:19:09 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:09 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:09 PROCESSING Window(col_off=4500, row_off=0, width=500, height=500)
+2024-01-10 15:19:10 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 PROCESSING Window(col_off=3000, row_off=3500, width=500, height=500)
+2024-01-10 15:19:10 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 PROCESSING Window(col_off=3500, row_off=500, width=500, height=500)
+2024-01-10 15:19:10 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 PROCESSING Window(col_off=3500, row_off=2500, width=500, height=500)
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:10 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:10 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 PROCESSING Window(col_off=3500, row_off=4500, width=500, height=500)
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:11 PROCESSING Window(col_off=4000, row_off=3500, width=500, height=500)
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 PROCESSING Window(col_off=4000, row_off=1500, width=500, height=500)
+2024-01-10 15:19:12 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:12 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 PROCESSING Window(col_off=4500, row_off=500, width=500, height=500)
+2024-01-10 15:19:13 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 PROCESSING Window(col_off=4500, row_off=2500, width=500, height=500)
+2024-01-10 15:19:13 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 PROCESSING Window(col_off=4500, row_off=3000, width=500, height=500)
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:13 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:14 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:14 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:14 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:14 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:14 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:14 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:15 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:15 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:16 PROCESSING Window(col_off=4500, row_off=3500, width=500, height=500)
+2024-01-10 15:19:16 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:16 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:17 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:18 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:18 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:20 PROCESSING Window(col_off=4500, row_off=4000, width=500, height=500)
+2024-01-10 15:19:20 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:20 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:20 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:21 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:21 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:22 PROCESSING Window(col_off=4500, row_off=4500, width=500, height=500)
+2024-01-10 15:19:22 Found credentials from IAM Role: butzer-pcluster-ComputeFleetQu-RoleF1a915d3cbdb67e6-TMTpkCJQeJaT
+2024-01-10 15:19:22 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850810_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850810_20210422_02', acquired=datetime.date(1985, 8, 10), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:23 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850904_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850904_20210422_02', acquired=datetime.date(1985, 9, 4), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850911_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850911_20210422_02', acquired=datetime.date(1985, 9, 11), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:24 Pulling data for LandsatARDObservation(root_id='LT05_CU_024014_19850920_20210422_02', std_path='usgs-landsat-ard/collection02/tm/1985/CU/024/014/LT05_CU_024014_19850920_20210422_02', acquired=datetime.date(1985, 9, 20), region='CU', platform='LT05', sensor='tm', horiz=24, vert=14, tileid='024014', prod_date=datetime.date(2021, 4, 22))
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:26 PROCESSED WINDOW: Window(col_off=0, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=0, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=0, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=500, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1000, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=1500, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2000, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=2500, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3000, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=3500, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4000, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=0, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=1000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=1500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=2000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=2500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=3000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=3500, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=4000, width=500, height=500) 
+
+
+2024-01-10 15:19:27 PROCESSED WINDOW: Window(col_off=4500, row_off=4500, width=500, height=500) 
+
+
+2024-01-10 15:19:37 Processing time: 1.26 minutes
+>>> b: LT05_CU_003010_19840513_20210421_02_SR_B1.TIF
