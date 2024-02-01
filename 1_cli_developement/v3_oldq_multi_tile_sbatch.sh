@@ -4,10 +4,11 @@ job_directory=$PWD/.job
 
 for h in {21..26}; do 
 	for v in {11..14} ; do 
-		for yr in {1996..1998}; do
+		for yr in {1999..2004}; do
 		lizard=${h}_${v}_${yr}
     		job_file="${job_directory}/${lizard}.job"
     		echo "#!/bin/bash
+#SBATCH --partition=old
 #SBATCH --account=butzer
 #SBATCH --time=00:20:00
 #SBATCH -N 1
