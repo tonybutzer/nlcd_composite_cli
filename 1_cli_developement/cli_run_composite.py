@@ -630,7 +630,7 @@ func = partial(comp_worker_pure_rio,
 
 #%%===================SET OUT FILE NAMES==============================
 # create out tif name with current date time
-OUTDIR = '/efs/composites'
+OUTDIR = '/efs/danny'
 out_comp_tif = f'{OUTDIR}/comp_{horiz:03d}{vert:03d}_{start.year}_{max_x}x{max_y}y{interval}i_{formatted_datetime}.tif'
 out_qa_tif = f'{OUTDIR}/QA_{horiz:03d}{vert:03d}_{start.year}_{len(deets)}_{max_x}x{max_y}y{interval}i_{formatted_datetime}.tif'
 
