@@ -9,3 +9,6 @@ pc:
 
 short:
 	./pc_user.py -y 2023 short.csv
+
+three:
+	./pc_user.py -y 2023 three.csv
