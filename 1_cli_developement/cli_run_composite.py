@@ -24,6 +24,8 @@ from lcnext import lsc2ard as c2ard
 from lcnext.lsc2ard import LandsatARDObservation
 from lcnext.static import LANDSAT_SENSORS
 
+from tag.tagme import tagme
+
 from typing import List, Tuple
 
 
@@ -567,6 +569,11 @@ end = dt.datetime.strptime(enda, '%Y%m%d').date()
 
 horiz = int(args['horiz'])
 vert = int(args['vert'])
+
+year = starta[0:4]
+
+my_new_tag = f'Compute-{year}_{horiz}_{vert}-composite-butzer'
+tagme(my_new_tag)
 
 
 
